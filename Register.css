@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.mainheader{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+.mainheader .logo img{
+
+  
+  background-color: cadetblue;
+}
+.mainheader nav{
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.mainheader nav a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.mainheader button{
+
+  padding: 10px 45px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  border: none;
+  background-color: skyblue;
+  text-transform: uppercase;
+  
+
+}
+.menubtun{
+  margin-right: 60px;
+
+}
+
+main{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+main .right-sec{
+  padding-right: 50px;
+}
+main .left-sec{
+  padding-left: 50px;
+}
+
+
+
+.leftfloat{
+  width: 33%;
+  background-color: blue;
+  height: 80%;
+  align-items: center;
+  
+}
+.middlefloat{
+  width: 33%;
+  background-color:red;
+  height: 80%;
+}
+
+.rightfloat{
+  width: 33%;
+  background-color:skyblue;
+  height: 80%;
+}
+
+.float{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

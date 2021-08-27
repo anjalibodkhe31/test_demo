@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+.mainheader .logo img{
+
+    
+    background-color: cadetblue;
+}
+.mainheader nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.mainheader button{
+
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    border: none;
+    background-color: skyblue;
+    text-transform: uppercase;
+    
+
+}
+.menubtun{
+    margin-right: 60px;
+ 
+}
+
+main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main .right-sec{
+    padding-right: 50px;
+}
+main .left-sec{
+    padding-left: 50px;
+}
+
+
+
+.leftfloat{
+    width: 33%;
+
+    height: 80%;
+    align-items: center;
+    
+}
+.middlefloat{
+    width: 33%;
+   
+    height: 80%;
+}
+
+.rightfloat{
+    width: 33%;
+   
+    height: 80%;
+}
+
+.float{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change_content:after{
+     
+
+
+    animation: changeimage 20s infinite linear;
+    
+
+}
+
+@keyframes changeimage{
+    0% { content:url(gettyimages-1150640142-612x612) ;    }
+}
+
+#con{
+    
+        position: relative;
+        text-align: center;
+        color: white;
+     
+}
+#con1{
+    
+    position: relative;
+    text-align: center;
+    color: white;
+    left: -150px;
+ 
+}
+.top-left {
+    position: absolute;
+    top:200px;
+    left: 16px;
+}
+.stop-left {
+    position: absolute;
+    top:200px;
+    left: 340px;
+}

@@ -1,0 +1,77 @@
+html
+    head
+        title Home Page title
+        link href=httpsfonts.googleapis.comcss2family=Shadows+Into+Light&display=swap rel=stylesheet
+        meta name=description content=find your room and food
+        link rel=icon href=RF.png type=imagepng
+        link rel=stylesheet type=textcss href=style.css
+    head
+
+    body
+            header
+                div class=mainheader
+                    div class=logo
+                        img src=RF1.png
+                    div
+                    nav
+                        a href=@ Homea
+                        a href=@ About usa
+                        a href=@ Contact usa                       
+                    nav
+                    div class=menubtun
+                        form action=Register.html method=POST
+                        buttonbRegisterbbutton
+                    form
+                    div
+                div
+               
+                div class=float
+              
+                    
+                    div class=leftfloat
+                        section class=left-sec
+                        form 
+                            
+                             img id=con src=gettyimages-80345419-612x612.jpg;                            
+                             div class=top-left
+                                &nbsp;&nbsp;&nbsp;&nbsp;   h1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loginh1
+                             brbrlabel&nbsp;&nbsp;Namelabel
+                             input class=un  type=text alig=center placeholder=Username
+                             brbr
+                            label&nbsp;&nbsp;Passwordlabel   
+                            input class=pass type=password alig=center placeholder=Password size=8br
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input class=sign type=button value=Loginalig=center 
+                            div            
+                            
+                        form
+                    sectiondiv
+                    div class=middlefloat
+                        section class=middle-sec
+                        form
+                            img id=con src=pexels-photo-210265.jpeg;
+                            div class=stop-left
+
+                                brbrlabel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Namelabel
+                                input class=un1  type=text alig=center placeholder=Usernamebrbr
+                                label&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Passwordlabel   
+                                input class=pass1 type=password alig=center placeholder=Password size=8br
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input class=sign1 type=button value=Loginalig=center 
+                        div
+                        form                  
+                    section
+                div
+                    div class=rightfloat
+                        section class=right-sec
+                        form
+                           a href=www.google.com img id=con1 src=imageedit_4_8162682129.jpg;img style =position absolute; left 1300px; top 175px;
+                            id=con1 src=imageedit_9_7379548604.jpg;a
+                            
+                        form
+                  
+                    section
+                div
+            div
+            header 
+    body
+
+html
